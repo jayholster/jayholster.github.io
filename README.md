@@ -1,5 +1,5 @@
-# Thinking Statistically about Words
-### Natural Language Processing for Social Science
+## Thinking Statistically about Words: Natural Language Processing for Social Science
+
 Lorem Ipsum.
 
 ```javascript
