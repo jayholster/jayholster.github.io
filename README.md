@@ -1,4 +1,4 @@
-## Thinking Statistically about Words 
+## Qualitative Statistical Thinking
 
 Lorem Ipsum.
 
