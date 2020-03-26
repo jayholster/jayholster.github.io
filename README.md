@@ -1,6 +1,5 @@
-# TL;DR
-## Natural Language Processing 
-
+# Thinking Statistically about Words
+### Natural Language Processing for Social Science
 Lorem Ipsum.
 
 ```javascript
