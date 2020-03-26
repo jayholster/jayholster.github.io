@@ -1,6 +1,7 @@
-# Coronavirus
+# TL;DR
+## Natural Language Processing 
 
-The first set of posts are a series on the Coronovirus dataset, referenced in the CO-VID19 Open Research Challenge: https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
+Lorem Ipsum.
 
 ```javascript
 /* Some pointless Javascript */
