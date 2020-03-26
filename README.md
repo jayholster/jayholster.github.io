@@ -12,7 +12,7 @@ A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass lite
 
 An image, located within /images
 
-![an image alt text]({{ https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/1200px-Linear_regression.svg.png "an image title")
+![an image alt text]({{ https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/1200px-Linear_regression.svg.png "an image title"}})
 
 * A bulletted list
 - alternative syntax 1
