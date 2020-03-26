@@ -2,7 +2,7 @@
 layout: post
 title: Markdown Style Guide
 ---
-# Header 1
+# Statistics Stuff
 
 This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
 
