@@ -1,49 +1,10 @@
-# Statistics Stuff
+# Blog Purpose
 
-This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
-
-## Header 2 (H1 is reserved for post titles)##
-
-### Header 3
-
-#### Header 4
-
-A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
-
-An image, located within /images
-
-![an image alt text]({{ https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/1200px-Linear_regression.svg.png "an image title"}})
-
-* A bulletted list
-- alternative syntax 1
-+ alternative syntax 2
-  - an indented list item
-
-1. An
-2. ordered
-3. list
-
-Inline markup styles:
-
-- _italics_
-- **bold**
-- `code()`
-
-> Blockquote
->> Nested Blockquote
-
-Syntax highlighting can be used with triple backticks, like so:
+I want to start a blog both as a learning tool for myself,  and possibly others. I am a second year PhD. student in Music Education, and I am also pursuing a cognate in statistics. I'm personally attached to the idea that artificial intelligence will become a core component to social science research in the coming years. In my own work, I use natural language processing tools in order to make meaning out of huge datasets. The tools we use to understand the world are already more powerful and more accessible than ever. Researchers, teachers, you name it, should feel empowered to think statistically, and get closer to some objective truth. 
 
 ```javascript
 /* Some pointless Javascript */
 var rawr = ["r", "a", "w", "r"];
 ```
-
-Use two trailing spaces  
-on the right  
-to create linebreak tags  
-
-Finally, horizontal lines
-
 ----
 ****
