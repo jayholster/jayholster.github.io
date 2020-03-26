@@ -1,10 +1,15 @@
-# Blog Purpose
+#Coronavirus
 
-I want to start a blog both as a learning tool for myself,  and possibly others. I am a second year PhD. student in Music Education, and I am also pursuing a cognate in statistics. I'm personally attached to the idea that artificial intelligence will become a core component to social science research in the coming years. In my own work, I use natural language processing tools in order to make meaning out of huge datasets. The tools we use to understand the world are already more powerful and more accessible than ever. Researchers, teachers, you name it, should feel empowered to think statistically, and get closer to some objective truth. 
+The first set of posts are a series on the Coronovirus dataset, referenced in the CO-VID19 Open Research Challenge: https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
 
 ```javascript
 /* Some pointless Javascript */
 var rawr = ["r", "a", "w", "r"];
 ```
+
+# Blog Purpose
+
+I'm personally attached to the idea that artificial intelligence will become a core component to social science research in the coming years. In my own work, I use natural language processing tools in order to make meaning out of huge datasets. The tools we use to understand the world are already more powerful and more accessible than ever. Researchers, teachers, and the like should feel empowered to identify and use statistical thinking in the pursuit of some objective truth. 
+
 ----
 ****
