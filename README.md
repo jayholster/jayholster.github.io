@@ -1,5 +1,4 @@
 ## Thinking Statistically about Words 
-### Natural Language Processing for Social Science
 
 Lorem Ipsum.
 
