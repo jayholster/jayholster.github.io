@@ -1,4 +1,4 @@
-#Test
+#Tests
 ---
 layout: post
 title: Markdown Style Guide
