@@ -49,6 +49,41 @@ txttranscripts <- lapply(files, pdf_text)
 Additionally, I discovered that Jamie Bernstein, daughter of Leonard Bernstein, hosted a Young People's Concert as part of the Bernstein at 100 festival which took place at the University of Colorado Boulder in 2018. After contacting represetentatives of the College of Music, I was able to procure a transcript of this event and add it to my list, resulting in 132 pages of transcripts which included 51,956 words, or 500,827 characters. 
 
 ### Part 3: Cleaning and Labeling the Dataset
+After concatenating all primary sources, I needed to format the data for time-based inquiry. To make it easier to label the data with the appropriate episode title and airdate, I converted transcript data (bernstein.txt) to a list of sentences, creating a new .csv file. 
+
+```python
+# read the txt file, and split every line at the character '.'. Then append sentences to list 'string'. 
+string = []    
+with open("bernstein.txt", "r") as f: 
+    #full_text = f.read()
+    #for l in re.split(r"(\. )", full_text):
+      #  if l != ".":
+        #    string.append(l + ". ")
+
+#convert list to dataframe 
+df = pd.DataFrame(string)
+#drop empty rows
+df.dropna()
+#print to a new csv file
+df.to_csv('bernsteinsentences.csv')
+```
+
+My data were converted to 4,765 sentences. I wanted to label each sentence by episode title and original airdate, so I cross checked the leading and final sentences of each episode on the original transcripts with the new data frame, and manually labelled the rows. 
+
+PICTURE OF DATASET
+
+```
+data = df.Sentences.values.tolist()
+
+# Remove Emails
+#data = [re.sub('\S*@\S*\s?', '', sent) for sent in data]
+
+#Remove new line characters, tab delimitors, and single quotes.
+data = [re.sub('\s+', ' ', sent) for sent in data]
+data = [re.sub('\\n', ' ', sent) for sent in data]
+data = [re.sub('\\t', ' ', sent) for sent in data]
+data = [re.sub("\'", "", sent) for sent in data]
+```
 
 
 
