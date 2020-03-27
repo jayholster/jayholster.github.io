@@ -57,10 +57,10 @@ After concatenating all primary sources, I needed to format the data for time-ba
 # read the txt file, and split every line at the character '.'. Then append sentences to list 'string'. 
 string = []    
 with open("bernstein.txt", "r") as f: 
-    #full_text = f.read()
-    #for l in re.split(r"(\. )", full_text):
-      #  if l != ".":
-        #    string.append(l + ". ")
+    full_text = f.read()
+    for l in re.split(r"(\. )", full_text):
+        if l != ".":
+            string.append(l + ". ")
 
 #convert list to dataframe 
 df = pd.DataFrame(string)
