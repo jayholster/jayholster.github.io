@@ -1,12 +1,28 @@
-## Qualitative Statistical Thinking
+## Topic Modelling Leonard Bernstein's Young People's Concerts Transcripts
 
-Lorem Ipsum.
+# Step 1: Mine html data
+
+There are many tutorials for text mining using beautiful soup. 
 
 ```python
-df = pd.concat(dfs, join = 'outer', ignore_index=False, sort = True)
-df = df.drop_duplicates()
-df = df.dropna(how = 'all')
-df.to_csv('test1.csv')
+import requests
+from urllib import request, response, error, parse
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+import pandas as pd
+import re
+
+urls = ["https://leonardbernstein.com/lectures/television-scripts/young-peoples-concerts/what-does-music-mean",
+        "https://leonardbernstein.com/lectures/television-scripts/young-peoples-concerts/what-is-american-music"]
+        
+alltranscripts = []
+
+for url in urls:
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, "lxml")
+    transcripts = soup.find_all(class_='col3')
+    for item in transcripts:
+        alltranscripts.append(item.text)
 ```
 ----
 ### Purpose Statement
