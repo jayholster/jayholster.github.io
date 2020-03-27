@@ -70,7 +70,7 @@ df.to_csv('bernsteinsentences.csv')
 
 My data were converted to 4,765 sentences. I wanted to label each sentence by episode title and original airdate, so I cross checked the leading and final sentences of each episode on the original transcripts with the new data frame, and manually labelled the rows. 
 
-[Imgur](https://i.imgur.com/tHbJD9w.png)
+![Screenshot of Dataset](https://i.imgur.com/tHbJD9w.png)
 
 ```
 data = df.Sentences.values.tolist()
