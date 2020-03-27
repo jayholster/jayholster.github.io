@@ -1,5 +1,7 @@
 # Dynamic Topic Modeling Leonard Bernstein's Young People's Concerts
 
+![What Does Music Mean?](https://bernstein.classical.org/wp-content/uploads/2018/02/GettyImags-53027946_master_metaLR.jpg)
+
 Leonard Bernstein’s Young People’s Concerts reached a wide audience as a television series from the 1950s to the 1970s. There are vast data available regarding the Young People’s Concerts during Bernstein’s tenure as music director, however, these data have yet to be analyzed using exploratory data analysis techniques. Given the volume of the data, rhetorical patterns might be identified to bolster our present perception of Leonard Bernstein as a Music Educator on National television.
 
 What follows is an attempt to engage in historical research with dyanmic topic modeling, which can be used to analyze change in unobserved topics over time within a set of documents (Blei & Lafferty, 2006). An exploratory investigation on the teachings of Leonard Bernstein may reveal connections, or disconnections, between the past and today. Either outcome would be of interest to advocates of music education and musicologists.
