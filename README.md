@@ -2,9 +2,11 @@
 
 Lorem Ipsum.
 
-```javascript
-/* Some pointless Javascript */
-var rawr = ["r", "a", "w", "r"];
+```python
+df = pd.concat(dfs, join = 'outer', ignore_index=False, sort = True)
+df = df.drop_duplicates()
+df = df.dropna(how = 'all')
+df.to_csv('test1.csv')
 ```
 ----
 ### Purpose Statement
