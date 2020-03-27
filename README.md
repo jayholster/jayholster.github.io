@@ -1,11 +1,9 @@
 # Dynamic Topic Modeling: Leonard Bernstein's Young People's Concerts
 
-I'm attached to the idea that artificial intelligence will become a core component to social science research in the coming years. In my own work, I use natural language processing tools in order to make meaning out of huge datasets. The tools we use to understand the world are already more powerful and more accessible than ever. Researchers, teachers, and the like should feel empowered to identify and use statistical thinking alongside contemporary tools of analysis in the pursuit of some objective truth. 
-
 What follows is an attempt to engage in historical research with dyanmic topic modeling, which can be used to analyze change in unobserved topics over time within a set of documents (Blei & Lafferty, 2006).
 
-## Building the Primary Source Dataset
-### Part 1: Mining HTML data
+## Part 1: Building the Primary Source Dataset
+### Mining HTML data
 
 36 out of 53 transcripts for the Young People's Concerts (YPCs) were available on the Leonard Bernstein Office's online archives. I used the beautiful soup and requests python libraries in order to read in all of the html at each respective url. Once each website is read into python, each transcript was appended to the list 'alltranscripts' for futher processing. 
 
@@ -34,7 +32,7 @@ for url in urls:
 
 ```
 
-### Part 2: Finding missing data
+### Finding missing data
 
 I contacted the archivist at the Leonard Bernstein Office to inquire about the missing transcripts. They responded quickly, attaching pdfs of typewritten transcripts. I was able to locate all but three transcripts, which the archivist indicated were not going to be developed into transcripts. 
 
@@ -48,7 +46,7 @@ txttranscripts <- lapply(files, pdf_text)
 
 Additionally, I discovered that Jamie Bernstein, daughter of Leonard Bernstein, hosted a Young People's Concert as part of the Bernstein at 100 festival which took place at the University of Colorado Boulder in 2018. After contacting represetentatives of the College of Music, I was able to procure a transcript of this event and add it to my list, resulting in 132 pages of transcripts which included 51,956 words, or 500,827 characters. 
 
-### Part 3: Cleaning and Labeling the Dataset
+### Labeling the Dataset
 After concatenating all primary sources, I needed to format the data for time-based inquiry. To make it easier to label the data with the appropriate episode title and airdate, I converted transcript data (bernstein.txt) to a list of sentences, creating a new .csv file. 
 
 ```python
@@ -72,19 +70,13 @@ My data were converted to 4,765 sentences. I wanted to label each sentence by ep
 
 ![Screenshot of Dataset](https://i.imgur.com/tHbJD9w.png)
 
-```
-data = df.Sentences.values.tolist()
-
-# Remove Emails
-#data = [re.sub('\S*@\S*\s?', '', sent) for sent in data]
-
-#Remove new line characters, tab delimitors, and single quotes.
-data = [re.sub('\s+', ' ', sent) for sent in data]
-data = [re.sub('\\n', ' ', sent) for sent in data]
-data = [re.sub('\\t', ' ', sent) for sent in data]
-data = [re.sub("\'", "", sent) for sent in data]
-```
-
+More preprocessing to come, but this initial dataset will set me up for topic modeling using Latent Dirichlet Allocation (LDA) and sentiment analysis, the two primary components of my dynamic model analysis. 
 
 
 Blei, David M; Lafferty, John D (2006). Dynamic topic models. Proceedings of the ICML. ICML'06. pp. 113–120. doi:10.1145/1143844.1143859. ISBN 978-1-59593-383-6.
+
+---
+### Purpose
+
+I'm attached to the idea that artificial intelligence will become a core component to social science research in the coming years. In my own work, I use natural language processing tools in order to make meaning out of huge datasets. The tools we use to understand the world are already more powerful and more accessible than ever. Researchers, teachers, and the like should feel empowered to identify and use statistical thinking alongside contemporary tools of analysis in the pursuit of some objective truth. 
+
