@@ -41,14 +41,14 @@ I contacted the archivist at the Leonard Bernstein Office to inquire about the m
 I converted pdfs to txt files using the script below. While there are pdf parsers available for python, I found the most success using the pdftools library in R.
 
 ```R
-files <- list.files(pattern = 'pdf$')
-files
 library(pdftools)
-transcripts1 <- lapply(files, pdf_text)
-transcripts1
+files <- list.files(pattern = 'pdf$')
+txttranscripts <- lapply(files, pdf_text)
 ```
 
-Additionally, I discovered that Jamie Bernstein, daughter of Leonard Bernstein, hosted a Young People's Concert as part of the Bernstein at 100 festival which took place at the University of Colorado Boulder in 2018. After contacting represetentatives of the College of Music, I was able to procure a transcript of this event and add it to my list. 
+Additionally, I discovered that Jamie Bernstein, daughter of Leonard Bernstein, hosted a Young People's Concert as part of the Bernstein at 100 festival which took place at the University of Colorado Boulder in 2018. After contacting represetentatives of the College of Music, I was able to procure a transcript of this event and add it to my list, resulting in 132 pages of transcripts which included 51,956 words, or 500,827 characters. 
+
+### Part 3: Cleaning and Labeling the Dataset
 
 
 
