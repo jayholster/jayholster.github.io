@@ -2,7 +2,7 @@
 
 By Jacob Holster, March 29th, 2020
 
-On Friday March 28th the New York Times published coronavirus case data for all U.S. counties. The full article is linked at the bottom of this post. They released two datasets, one for state level, and one for county level. For this research question, we're going to be zooming in on the county level dataset. Variables at the county level, with examples, are:
+On Friday March 27th the New York Times published coronavirus case data for all U.S. counties. The full article is linked at the bottom of this post. They released two datasets, one for state level, and one for county level. For this research question, we're going to be zooming in on the county level dataset. Variables at the county level, with examples, are:
 
 - date: 2020-01-21
 - county: Snohomish
