@@ -125,7 +125,7 @@ The case model held a strong R-squared value of .49, while the death model's R-s
 
 Other factors are less important, as far as the model is concerned. However, the lack of significant relationships, for instance within the rural-urbal continuum codes, and the urban influece codes, each had no bearing on the change in cases and are interestingly absent in effect. Additionally, median household income had little impact on the strength of any model. The effect of the size of the civilian workforce is isolated within this dataset. 
 
-There is a strong likelyhood that the size of a county's civilian workforce has an adverse impact on the spread of cases locally. Conversely, population density, closeness to municipalities, and median household income have little to no effect on the number of diagnosed cases. 
+There is a strong likelihood that the size of a county's civilian workforce has an adverse impact on the spread of cases locally. Conversely, population density, closeness to municipalities, and median household income have little to no effect on the number of diagnosed cases. 
 
 There remains an opportunity to improve the dataset and the subsequent analysis through the joining of datasets with 'FIPS' codes at the county level. I believe it's important to analyze data at the county level because of the unpredicitable nature of the spread of COVID-19. We should be looking for patterns in small places to ascertain our next steps as a society. 
 
