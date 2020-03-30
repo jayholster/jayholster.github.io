@@ -121,7 +121,7 @@ Model Equations
 - +1 Case = -6.071 + 0.0004(Number of Civilian Workers)
 - +1 Death = -0.0383 + .000006(Number of Civilian Workers)
 
-The case model held a strong R-squared value of .49, while the death model's R-squared value was .31. This indicates that the variation in the number of civilian workers can be modeled to describe 49% of the spread in cases, and 31% of the resulting deaths. 0.0004 represents the number of civilian workers increase that fits with the one additional case held constant on the left side of the equation. In other words, this model suggests that for every increase of 4,000 civilian workers, one additional case is expected for that county. For the death model, an increase of 600,000 workers leads to the expectation of one additional death. 
+The case model held a strong R-squared value of .49, while the death model's R-squared value was .31. This indicates that the variation in the number of civilian workers can be modeled to describe 49% of the spread in cases, and 31% of the resulting deaths. 0.0004 represents the number of civilian workers increase that fits with the one additional case held constant on the left side of the equation. (Edited, removed incorrect interpretation, see updates below)
 
 Other factors are less important, as far as the model is concerned. However, the lack of significant relationships, for instance within the rural-urban continuum codes, and the urban influence codes, each had no bearing on the change in cases and are interestingly absent in effect. Additionally, median household income had little impact on the strength of any model. The effect of the size of the civilian workforce is isolated within this dataset. 
 
@@ -130,6 +130,13 @@ There is a strong likelihood that the size of a county's civilian workforce has 
 There remains an opportunity to improve the dataset and the subsequent analysis through the joining of datasets with 'FIPS' codes at the county level. I believe it's important to analyze data at the county level because of the unpredicitable nature of the spread of COVID-19. We should be looking for patterns in small places to ascertain our next steps as a society. 
 
 The data are updated daily, and are currently representative of reports as of March 27th. I'll continue updating the model with new data to see if the effect holds. If this trend is established and verified by new data on a continual basis, and compared against other possible confounding variables, this may prove to be a clue towards understanding the patterns of early spread. 
+
+# New Data from March 28th.
+
+After rerunning models using the updated nytimes county dataset, the r-squared values increased; case model moved up to .50, death model up to .34. The beta weights increased, corrected equations are below. I also just caught a mistake in my initial analysis. I claimed that .0004 indicates that 4000 workers equal one case. In fact, every one unit increase in civilian workers, the number of cases will increase by .0004. Therefore we must compute the number of civilian workers needed to increase one case. To do this, we simply divide the increase in case target variable 1/.0004 = 2500. In other wordes, the coefficient increase of .0004 (per worker) tells us that for every 2500 workers, you can expect one case. 
+
+- +1 Case = -5.3972 + 0.0005(Number of Civilian Workers): 1 case per 2000 workers
+- +1 Death = -0.0539 + .000007(Number of Civilian Workers): 1 death per 142,857 workers
 
 ---
 - https://www.nytimes.com/article/coronavirus-county-data-us.html
