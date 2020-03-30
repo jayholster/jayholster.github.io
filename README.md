@@ -135,7 +135,9 @@ The data are updated daily, and are currently representative of reports as of Ma
 - https://www.nytimes.com/article/coronavirus-county-data-us.html
 - https://www.ers.usda.gov/data-products/county-level-data-sets/
 - https://github.com/nytimes/covid-19-data
+
 ---
+
 # Dynamic Topic Modeling Leonard Bernstein's Young People's Concerts
 
 ![What Does Music Mean?](https://bernstein.classical.org/wp-content/uploads/2018/02/GettyImags-53027946_master_metaLR.jpg)
