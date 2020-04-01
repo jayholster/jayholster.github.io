@@ -138,6 +138,14 @@ After rerunning models using the updated nytimes county dataset, the r-squared v
 - +1 Case = -5.3972 + 0.0005(Number of Civilian Workers): 1 case per 2000 workers
 - +1 Death = -0.0539 + .000007(Number of Civilian Workers): 1 death per 142,857 workers
 
+# New Data from March 30th.
+The effects of civilian labor force are still increasing, while the effects of MHI, urban influence, population densitiy, and unemployment are null. 
+
+- +1 Case = -6.6171 + 0.0006(Number of Civilian Workers): 1 case per 1666 workers
+- +1 Death = -0.0434 + .000009(Number of Civilian Workers): 1 death per 111,111 workers
+
+Next steps: See if predictions line up with numbers by county, and look for disconfirming cases. 
+
 ---
 - https://www.nytimes.com/article/coronavirus-county-data-us.html
 - https://www.ers.usda.gov/data-products/county-level-data-sets/
