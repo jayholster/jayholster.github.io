@@ -441,13 +441,14 @@ Keyword Nodes
 - sentences that use these keywords may merit the examination of a set of local topics
 
 ---
-
 Blei, David M; Lafferty, John D (2006). Dynamic topic models. Proceedings of the ICML. ICML'06. pp. 113–120. doi:10.1145/1143844.1143859. ISBN 978-1-59593-383-6.
 
 Dmitry Paranyushkin. 2019. InfraNodus: Generating Insight Using Text Network Analysis. In The World Wide Web Conference (WWW ’19). Association for Computing Machinery, New York, NY, USA, 3584–3589. DOI:https://doi.org/10.1145/3308558.3314123
 
 Gropp, Chris, Alexander Herzog, Ilya Safro, Paul W. Wilson and Amy W. Apon. “Scalable Dynamic Topic Modeling with Clustered Latent Dirichlet Allocation (CLDA).” ArXiv abs/1610.07703 (2016)
+
 ---
+
 # It's not median household income, unemployment, or population density, coronavirus spread is tied to the size of a county's workforce.
 
 By Jacob Holster, March 29th, 2020
