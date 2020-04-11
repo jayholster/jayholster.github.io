@@ -310,7 +310,7 @@ bernwithtopics = pd.concat([df1, df2, df3, df4, df5, df6, df7, df8, df9, df10, d
 bernwithtopics.to_csv('bernwithtopics.csv')
 ```
 
-# Part 3: Global Analysis
+## Part 3: Global Analysis
 So far, we have been following the dynamic topic modeling steps using clustered LDA, as illustrated in the figure below (Gropp, Herzog, & Apon, 2016). Now that we have merged all split corpi into a categorized corpus, local topics are categorized into subsets of global topics. To do this, we simply run the LDA process on the global list of sentences, retaining local topic labels. My analysis provides evidence of 10 global topics. I compared keywords and representative text across these topics to construct overarching global categories. 
 
 ![ClusteredLDA](https://imgur.com/eadIyDh.png)
