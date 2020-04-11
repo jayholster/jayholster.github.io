@@ -211,14 +211,14 @@ pprint(lda_model.print_topics())
 doc_lda = lda_model[corpus]
 
 # Compute Perplexity
-print('\nPerplexity: ', lda_model.log_perplexity(corpus))  # a measure of how good the model is. lower the better.
+print('\nPerplexity: ', lda_model.log_perplexity(corpus))
 
 # Compute Coherence Score
 coherence_model_lda = CoherenceModel(model=lda_model, texts=data_lemmatized, dictionary=id2word, coherence='c_v')
 coherence_lda = coherence_model_lda.get_coherence()
 print('\nCoherence Score: ', coherence_lda)
 ```
-Most importantly, these topics were independing of each other. I checked this using pyLDAvis:
+Most importantly, these topics were independent of each other. I checked this using pyLDAvis:
 
 ```python
 pyLDAvis.enable_notebook()
