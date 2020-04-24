@@ -1,5 +1,5 @@
 # Dynamic Topic Modeling Leonard Bernstein's Young People's Concerts
-Updated on April 10th, 2020
+Updated on April 24th, 2020
 ![What Does Music Mean?](https://bernstein.classical.org/wp-content/uploads/2018/02/GettyImags-53027946_master_metaLR.jpg)
 
 Leonard Bernstein’s Young People’s Concerts reached a wide audience as a television series from the 1950s to the 1970s. There are vast data available regarding the Young People’s Concerts during Bernstein’s tenure as music director, however, these data have yet to be analyzed using exploratory data analysis techniques. Given the volume of the data, rhetorical patterns might be identified to bolster our present perception of Leonard Bernstein as a Music Educator on National television.
@@ -439,6 +439,52 @@ Global Topic Mentions By Year
 
 Keyword Nodes
 - sentences that use these keywords may merit the examination of a set of local topics
+
+## Part 4: Results
+
+The primary purpose for the investigation of local topics was to use the leading keywords to summarize the content of a given year, whereby changes might be perceived from year to year. Conversely, the presence of common important keywords throughout time point to their consistent use over a large period of the Young People’s Concerts. 
+Local LDAs
+
+The individual LDAs yielded 76 aggregated local topics, with topic frequencies ranging from three in 1958, to eight in 1963. Figure x below is a histogram, where topic counts are displayed along with three leading topic keyword for each of the 76 local topics. While the scope of this content analysis does not include a detailed investigation of each local topic, in fact most local topics were not explicitly labeled, both the count of unique topics, and the frequency of the most important keywords reveal the words that were most highly connected to the rest of the corpus. 
+
+![histogram](https://i.imgur.com/sjeLPmp.png)
+
+### Local Keywords
+Using infranodus I analyzed the full set of local keywords using 4-grams. Bi-grams are better illustrators of the concept. For a list of words, an algorithm searches for word connections. Bi-grams are used to identify the most frequently repeating two-word sets, which are often of some importance to the overall interpretation of the data. 4-grams apply the same concept to words that are within four words of each other, additionally granting a more powerful measure of word connectedness. This connectedness factor is indicated as betweenness in natural language processing research. The table below contains the top 30 most connected, and correrarly the most frequently used keywords in the merged corpus. 
+
+![topkeywords](https://i.imgur.com/6VXqZda.png)
+
+### Global LDA Results
+The dataset fit a model of ten topics, which are described with keywords and examples below. 
+
+**Breaking the rules:** The top ten keywords for this topic were: call, know, way, first, new, come, write, mean, and thing. The rules referenced here are actually the rules of music, broadly defined. Composers would often stretch the rules of composition and conductors the rules of performance; Bernstein found this interesting over time. Here, Bernstein describes the way a melody can be manipulated: “But the remarkable thing is not just that a melody is upside-down like a pancake; its the fact that its upside down, and it sounds wonderful upside-down.”
+
+**Endings:** The leading keywords for this topic were: end, ever, find, little, come, bring, piece, final, almost, and perfect. This topic can be interpreted quite literally, as many of the statements made in regard to endings are about musical endings. An example: “And now, as you listen to the fourth movement, which we are about to play with its triumphant ending, you may find different meanings in this ending‚ the rejoicing after a storm, the joy of climbing a mountain and reaching the top, the joy of winning a game, or passing a tough exam, or being well after a sickness; but to the people of Finland this ending will always mean one thing only: freedom.”
+
+**Heritage:** The keywords for ‘Heritage’ include: full, dance, piece sometimes, simple, century, singe, sort, problem, and fun. This is another topic to be interpreted literally, as Bernstein is referring to the connection between many composers’ heritage to the sounds they compose. For instance: “Because in most countries, the people who live there are descended for hundreds of years from their forefathers, and their forefathers forefathers, who all sang the same little tunes and sort of own them; so when the Russians hear a Tchaikovsky symphony, they feel closer to it than say, a Frenchman does, or than we do.”
+
+**Orchestration:** Keywords for ‘Orchestration’ include: instrument, choose, love, sound, use, jazz, rejection, german, and serious, often referring to the choices composers must make as they are writing music: “Sometimes it takes you days or weeks to make up your mind. Well, imagine how hard it is for a composer to make up his mind and choose ‚ not between two things, like a pair of skates or a bicycle ‚ but among all those instruments to say nothing of the hundreds and millions of possible combinations of all those instruments.” 
+	
+**Development:** Development was described best by the following ten keywords: theme, note, play, also, sing, movement, first, magic, happen, main, and refer to musical development throughout a piece. Berstein describes the manner in which Tchaikovsky develops a theme: “Then he breaks that in half and develops only that half,[ORCH: Tchaikovsky - Fourth Symphony]and now were down to four notes only,[SING: Tchaikovsky - Fourth Symphony]which hes developing in sequences.[SING: Tchaikovsky - Fourth Symphony]But now it divides again, like an amoeba, and the sequence builds on only the last two notes.[SING: Tchaikovsky - Fourth Symphony] Just that.” 
+
+**Good vs. Evil:** A true storyteller, Bernstein sought out the dichotomy of good vs. evil in life, and demonstrated this with the following keywords: faust, bar, orchestra, life, tell, devil, seem, well, and away. Here, Bernstein describes how conflict can be demonstrated through music: “This painful problem is shown in terms of a conflict, the struggle between Man’s tremendous need for immortality, and his equally strong need to accept the fact that he is mortal.”. 
+
+**Music and Space:** The keywords for this topic were: finally, planet, chapter, space, light, understand, religious, suddenly, call, and give. Stories always exist in some space, whether it be outer space, or an impressionist lens toward a sinking cathedral: “You can see the form of a painting, or a church, more or less all at once because their forms exist in space”. Bernstein frequently uses this topic to illustrate the form of a work in relation to its story-like qualities. 
+
+**Philosophy:** The top ten keywords for ‘Philosophy’ were: man, high, story, minor, be, go, beauty, become, beautiful, and even. Throughout the series, Bernstein uses philosophy as a guide for music listening, but also expounds upon the philosophy that is laden within the music he presents. On the connection between Strauss’s ‘Thus Spoke Zarathustra’ and Nietzsche’s Zoroastrian fable: “The connection is a German philosopher named Nietzsche, sorry about all these names, but they’re necessary if were going to make sense out of all this‚ Friedrich Nietzsche, a highly poetic philosopher who was all the rage in Germany when Strauss was a young man.” 
+
+**Young People:** The leading keywords for the topic ‘Young People’ were: young, name, famous, piece, major, great, old, give, key, and applause. Bernstein referred to young people throughout the series, largely from an inspirational perspective: “They said, What? You’re going to play that long, slow, highbrow music for young people? You’re crazy--they’ll get restless and noisy.” This statement was the antithesis to the central motivation behind the Young People’s Concerts, and Bernstein made clear efforts to include the perspective of young people in the presentation of his concerts, where he might add: “I hope you all find it as much fun as I did when I was your age.”
+
+**The Show:** The top ten keywords for ‘The Show’ were: much, program, strange, piano, study, young_people, concert, year, birthday, and chorus. Within this topic, Bernstein made references to the production of the show, to the writing and planning of the show, sometimes including the context of audience feedback: “Ive received so many letters from you in the television audience expressing disappointment because our final program of last year was not televised due to technical difficulties I wont go into, that I have been persuaded to repeat it and so we are going to open this years series by again discussing the subject ‚ what makes music symphonic?”. 
+
+### Defining Global Categories
+After examining the content of each of the topic it was clear that there was some overlap. While there were key differences between ‘Breaking the rules of composition’, and ‘Orchestration’, they were both referring to one universal category which I am calling **‘Sounds’**. ‘Endings’, and ‘Heritage’ were also grouped into the ‘Sounds’ category. 
+
+A separate category was created to address commonalities between ‘Good vs. evil’, ‘Philosophy’, ‘Development’, and ‘Music and Space’, and was designated the name **‘Stories’**. The last two global topics are retained in a third category called **‘The Show’** which refers to comments about the Young People’s Concerts production or Bernstein’s efforts to talk about, and talk directly to young people. 
+
+## Next Steps
+Next I will be interpreting the sentiment analysis results, lagely on the outliers, as I am interested in unique cases of high or low subjectivity and polarity. 
+
 
 ---
 Blei, David M; Lafferty, John D (2006). Dynamic topic models. Proceedings of the ICML. ICML'06. pp. 113–120. doi:10.1145/1143844.1143859. ISBN 978-1-59593-383-6.
