@@ -1,4 +1,4 @@
-# Dynamic Topic Modeling Leonard Bernstein's Young People's Concerts
+# Clustered Dynamic Topic Modeling Leonard Bernstein's Young People's Concerts
 Updated on April 24th, 2020
 ![What Does Music Mean?](https://bernstein.classical.org/wp-content/uploads/2018/02/GettyImags-53027946_master_metaLR.jpg)
 
