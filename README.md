@@ -403,24 +403,25 @@ This code creates the figure below, where each dot represents a sentence, and co
 
 ![sent](https://imgur.com/RIHuTpc.png)
 
-To visualize global topic mentions by year, I grouped the data by global_topics and year, where counts for each global topic were recorded, code and figure seen below. 
+To visualize global topic mentions by year comparitively, I grouped the data by global_topics and year, where counts for each global topic were recorded and then animated in R using the code below. 
 
 ```R
-global <- read.csv(file = 'globalperyear.csv')
+p <- global %>%
+  arrange(global_topics.1) %>%
+  mutate(name = factor(global_topics, levels=c("The Show", "Young People", "Music and space", "Philosophy", "Good vs. Evil", "Development", "Endings", "Heritage", "Breaking the rules", "Orchestration"))) %>%
+  ggplot(global, mapping = aes(x = name, y = global_topics.1)) +
+  geom_histogram(stat = 'identity', aes(fill = name)) +
+  coord_flip() +
+  labs(title = 'Year: {frame_time}',
+       x = 'Global Categories',
+       y = "Category Mentions",
+       caption="Global Categories: Trends Over Time") +
+  transition_time(year) +
+  ease_aes('linear')  
+animate(p, nframes = 600, fps = 24, width = 600, height = 400, end_pause = 30)
 
-ggplot(global, aes(x = year, y = global_topics.1)) +
-  geom_smooth(aes(color = global_topics), se = FALSE) +
-  labs(
-    title = paste("Global Topic Mentions By Year")
-  )
 ```
-![mentions](https://imgur.com/23O9XtO.png)
-
-... and lastly the most influential keywords using infranodus (Paranyushkin, 2019): 
-
-![mentions](https://imgur.com/gnNDSM7.png)
-
-This culminates the global stage of analysis. The next stage will be locally based (by year, or other trends) which will then be substantiated by secondary sources. 
+![mentions](https://imgur.com/3GRREtr.png)
 
 ### Local Abberations and Trends of Note
 
@@ -482,9 +483,18 @@ After examining the content of each of the topic it was clear that there was som
 
 A separate category was created to address commonalities between ‘Good vs. evil’, ‘Philosophy’, ‘Development’, and ‘Music and Space’, and was designated the name **‘Stories’**. The last two global topics are retained in a third category called **‘The Show’** which refers to comments about the Young People’s Concerts production or Bernstein’s efforts to talk about, and talk directly to young people. 
 
-## Next Steps
-Next I will be interpreting the sentiment analysis results, lagely on the outliers, as I am interested in unique cases of high or low subjectivity and polarity. 
+## Music is sounds and stories
 
+In order to grasp the dynamic shifts in Bernstein's approach to presenting information regarding sounds and stories in music, I graphed the changes in the most influential keywords over time using infranodus (Paranyushkin, 2019):
+
+**For sounds: 
+![sounds](https://imgur.com/Xkl0JIj)
+**and for stories:
+![stories](https://imgur.com/gnNDSM7.png)
+
+This project is a work in progress, and will be submitted to the Journal of Research in Music Education as a quantitative-historical content analysis upon its completion.  
+
+For questions, email me at jacob.holster@colorado.edu
 
 ---
 Blei, David M; Lafferty, John D (2006). Dynamic topic models. Proceedings of the ICML. ICML'06. pp. 113–120. doi:10.1145/1143844.1143859. ISBN 978-1-59593-383-6.
