@@ -403,26 +403,6 @@ This code creates the figure below, where each dot represents a sentence, and co
 
 ![sent](https://imgur.com/RIHuTpc.png)
 
-To visualize global topic mentions by year comparitively, I grouped the data by global_topics and year, where counts for each global topic were recorded and then animated in R using the code below. 
-
-```R
-p <- global %>%
-  arrange(global_topics.1) %>%
-  mutate(name = factor(global_topics, levels=c("The Show", "Young People", "Music and space", "Philosophy", "Good vs. Evil", "Development", "Endings", "Heritage", "Breaking the rules", "Orchestration"))) %>%
-  ggplot(global, mapping = aes(x = name, y = global_topics.1)) +
-  geom_histogram(stat = 'identity', aes(fill = name)) +
-  coord_flip() +
-  labs(title = 'Year: {frame_time}',
-       x = 'Global Categories',
-       y = "Category Mentions",
-       caption="Global Categories: Trends Over Time") +
-  transition_time(year) +
-  ease_aes('linear')  
-animate(p, nframes = 600, fps = 24, width = 600, height = 400, end_pause = 30)
-
-```
-![mentions](https://imgur.com/3GRREtr.png)
-
 ### Local Abberations and Trends of Note
 
 Polarity and Subjectivity By Year and Category
@@ -484,6 +464,26 @@ After examining the content of each of the topic it was clear that there was som
 A separate category was created to address commonalities between ‘Good vs. evil’, ‘Philosophy’, ‘Development’, and ‘Music and Space’, and was designated the name **‘Stories’**. The last two global topics are retained in a third category called **‘The Show’** which refers to comments about the Young People’s Concerts production or Bernstein’s efforts to talk about, and talk directly to young people. 
 
 ## Music is sounds and stories
+
+To visualize global topic mentions by year comparitively, I grouped the data by global_topics and year, where counts for each global topic were recorded and then animated in R using the code below. 
+
+```R
+p <- global %>%
+  arrange(global_topics.1) %>%
+  mutate(name = factor(global_topics, levels=c("The Show", "Young People", "Music and space", "Philosophy", "Good vs. Evil", "Development", "Endings", "Heritage", "Breaking the rules", "Orchestration"))) %>%
+  ggplot(global, mapping = aes(x = name, y = global_topics.1)) +
+  geom_histogram(stat = 'identity', aes(fill = name)) +
+  coord_flip() +
+  labs(title = 'Year: {frame_time}',
+       x = 'Global Categories',
+       y = "Category Mentions",
+       caption="Global Categories: Trends Over Time") +
+  transition_time(year) +
+  ease_aes('linear')  
+animate(p, nframes = 600, fps = 24, width = 600, height = 400, end_pause = 30)
+
+```
+![mentions](https://imgur.com/3GRREtr.png)
 
 In order to grasp the dynamic shifts in Bernstein's approach to presenting information regarding sounds and stories in music, I graphed the changes in the most influential keywords over time using infranodus (Paranyushkin, 2019):
 
