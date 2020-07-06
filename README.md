@@ -488,9 +488,9 @@ animate(p, nframes = 600, fps = 24, width = 600, height = 400, end_pause = 30)
 In order to grasp the dynamic shifts in Bernstein's approach to presenting information regarding sounds and stories in music, I graphed the changes in the most influential keywords over time using infranodus (Paranyushkin, 2019):
 
 **For sounds: 
-![sounds](https://imgur.com/Xkl0JIj)
+![sounds](https://i.imgur.com/sxUaakN.gif)
 **and for stories:
-![stories](https://imgur.com/gnNDSM7.png)
+![stories](https://imgur.com/fuSCWjE.gif)
 
 This project is a work in progress, and will be submitted to the Journal of Research in Music Education as a quantitative-historical content analysis upon its completion.  
 
