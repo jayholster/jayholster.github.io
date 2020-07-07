@@ -1,5 +1,5 @@
 # Clustered Dynamic Topic Modeling Leonard Bernstein's Young People's Concerts
-Updated on April 24th, 2020
+Updated on July 6th, 2020
 ![What Does Music Mean?](https://bernstein.classical.org/wp-content/uploads/2018/02/GettyImags-53027946_master_metaLR.jpg)
 
 Leonard Bernstein’s Young People’s Concerts reached a wide audience as a television series from the 1950s to the 1970s. There are vast data available regarding the Young People’s Concerts during Bernstein’s tenure as music director, however, these data have yet to be analyzed using exploratory data analysis techniques. Given the volume of the data, rhetorical patterns might be identified to bolster our present perception of Leonard Bernstein as a Music Educator on National television.
@@ -468,7 +468,7 @@ After examining the content of each of the topic it was clear that there was som
 
 A separate category was created to address commonalities between ‘Good vs. evil’, ‘Philosophy’, ‘Development’, and ‘Music and Space’, and was designated the name **‘Stories’**. The last two global topics are retained in a third category called **‘The Show’** which refers to comments about the Young People’s Concerts production or Bernstein’s efforts to talk about, and talk directly to young people. 
 
-## Music is sounds and stories
+### To Bernstein, music is a combination of sounds and stories
 
 To visualize global topic mentions by year comparitively, I grouped the data by global_topics and year, where counts for each global topic were recorded and then animated in R using the code below. 
 
@@ -492,12 +492,12 @@ animate(p, nframes = 600, fps = 24, width = 600, height = 400, end_pause = 30)
 
 In order to grasp the dynamic shifts in Bernstein's approach to presenting information regarding sounds and stories in music, I graphed the changes in the most influential keywords over time using infranodus (Paranyushkin, 2019):
 
-**For sounds: 
-![sounds](https://i.imgur.com/sxUaakN.gif)
-**and for stories:
-![stories](https://imgur.com/fuSCWjE.gif)
+For sounds: 
+![sounds](https://imgur.com/t2LRAYd.gif)
+and for stories:
+![stories](https://imgur.com/fYaSu3k.gif)
 
-This project is a work in progress, and will be submitted to the Journal of Research in Music Education as a quantitative-historical content analysis upon its completion.  
+This project is a work in progress, and will be submitted to the Journal of Research in Music Education as a quantitative-historical content analysis upon its completion. See the final work for discussion surrounding implications for music education, and the life of Leonard Bernstein in the context of the Young People's Concerts.
 
 For questions, email me at jacob.holster@colorado.edu
 
