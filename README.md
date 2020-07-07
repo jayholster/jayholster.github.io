@@ -409,9 +409,9 @@ For sounds:
 and for stories:
 ![stories](https://imgur.com/fYaSu3k.gif)
 
-This project is a work in progress, and will be submitted to the Journal of Research in Music Education as a quantitative-historical content analysis upon its completion. See the final work for discussion surrounding implications for music education, and the life of Leonard Bernstein in the context of the Young People's Concerts.
+DISCLAIMER: This project is a work in progress, and will be submitted to the Journal of Research in Music Education as a quantitative-historical content analysis upon its completion. See the final work for discussion surrounding implications for music education, and the life of Leonard Bernstein in the context of the Young People's Concerts.
 
-For questions, email me at jacob.holster@colorado.edu
+For questions or comments, email me at jacob.holster@colorado.edu
 
 ---
 Blei, David M; Lafferty, John D (2006). Dynamic topic models. Proceedings of the ICML. ICML'06. pp. 113–120. doi:10.1145/1143844.1143859. ISBN 978-1-59593-383-6.
