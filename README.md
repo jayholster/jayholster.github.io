@@ -43,11 +43,11 @@ for url in urls:
 
 ```
 
-### Missing Data
+### Locating Remaining Transcripts
 
-I contacted the archivist at the Leonard Bernstein Office to inquire about the missing transcripts. They responded quickly, attaching pdfs of typewritten transcripts. I was able to locate all but three transcripts, which the archivist indicated were not going to be developed into transcripts. 
+I contacted the archivist at the Leonard Bernstein Office to inquire about the missing transcripts. They responded quickly, attaching pdfs of typewritten transcripts. I was able to locate all but three transcripts, which the archivist indicated were not going to be developed into transcripts. I located each of these episodes and transcribed them so to include all transcript texts from the entire production in the analysis.
 
-I converted pdfs to txt files using the script below. While there are pdf parsers available for python, I found the most success using the pdftools library in R.
+I converted the pdfs to txt files using the script below. While there are pdf parsers available for python, I found the most success using the pdftools library in R.
 
 ```R
 library(pdftools)
@@ -55,10 +55,10 @@ files <- list.files(pattern = 'pdf$')
 txttranscripts <- lapply(files, pdf_text)
 ```
 
-Additionally, I discovered that Jamie Bernstein, daughter of Leonard Bernstein, hosted a Young People's Concert as part of the Bernstein at 100 festival which took place at the University of Colorado Boulder in 2018. After contacting represetentatives of the College of Music, I was able to procure a transcript of this event and add it to my list, resulting in 132 pages of transcripts which included 51,956 words, or 500,827 characters. 
+Additionally, I discovered that Jamie Bernstein, daughter of Leonard Bernstein, hosted a Young People's Concert as part of the Bernstein at 100 festival which took place at the University of Colorado Boulder in 2018. After contacting represetentatives of the College of Music, I was able to procure a transcript of this event and add it to my list, resulting in 132 pages of transcripts which included 51,956 words.
 
 ### Labeling the Dataset
-After concatenating all primary sources, I needed to format the data for time-based inquiry. To make it easier to label the data with the appropriate episode title and airdate, I converted transcript data (bernstein.txt) to a list of sentences, creating a new .csv file. Back to python for now!
+After organizing all primary sources, I needed to format the data for time-based inquiry. To make it easier to label the data with the appropriate episode title and airdate, I converted transcript data (bernstein.txt) to a list of sentences, creating a new .csv file. Back to python for now!
 
 ```python
 # read the txt file, and split every line at the character '.'. Then append sentences to list 'string'. 
@@ -328,17 +328,6 @@ The global categories and topics were labelled as follows:
 - Stories: Development, Good vs. Evil, Philosophy, Music and Space
 - Audience: The Show, Young people
 
-### A Note on Sentiment
-
-I am interested in the sentiment of the text, so I used textblob to create a sentiscore. The sentiscore includes polarity, a measure of positive/negative valence (-1.0 to 1.0), and subjectivity, a 0 to 1 scale measuring the extent to which words indicate a fact or an opinion. I ran the following function on the merged dataset to ascertain polarity and subjectivity scores for each text element. This allowed me to compare sentiment measures over time. 
-
-```python
-from textblob import TextBlob
-def senti(x):
-    return TextBlob(x).sentiment  
-    
-dfa['senti_score'] = dfa['Representative Text'].apply(senti)
-```
 The last task to complete before visualization is to split the merged dataframe into three dataframes based on emerging categories. This step helps with plotting tasks, which will be completed in R. 
 
 ```python
@@ -349,68 +338,6 @@ stories.to_csv('finalstories.csv')
 sounds.to_csv('finalsounds.csv')
 show.to_csv('finalshow.csv')
 ```
-### Visualizing Data in R
-I analyzed the global topics respective to their category for polarity and subjectivity, and visualized the trends. 
-
-```R
-sounds <- read.csv(file = 'finalsounds.csv')
-stories <- read.csv(file = 'finalstories.csv')
-show <- read.csv(file = 'finalshow.csv')
-
-library('stringr')
-library(ggpubr)
-library(ggplot2)
-
-show1 <- ggplot(show, aes(year, polarity)) +
-  geom_point(aes(color = global_topics)) +
-  geom_smooth(se = TRUE) + 
-  theme(legend.position = "none") +
-  labs(
-    title = paste("The Show")
-  )
-
-show2 <- ggplot(show, aes(year, subjectivity)) +
-  geom_point(aes(color = global_topics)) +
-  geom_smooth(se = TRUE) +
-  theme(legend.position = "bottom") +
-  theme(legend.title = element_blank(), legend.text=element_text(size=5.5))
-  
-sounds1 <- ggplot(sounds, aes(year, polarity)) +
-  geom_point(aes(color = global_topics)) +
-  geom_smooth(se = TRUE) + 
-  theme(legend.position = "none") +
-  labs(
-    title = paste("Sounds")
-  )
-
-sounds2 <- ggplot(sounds, aes(year, subjectivity)) +
-  geom_point(aes(color = global_topics)) +
-  geom_smooth(se = TRUE) +
-  theme(legend.position = "bottom") +
-  theme(legend.title = element_blank(), legend.text=element_text(size=5.5))
-  
-stories1 <- ggplot(stories, aes(year, polarity)) +
-  geom_point(aes(color = global_topics)) +
-  geom_smooth(se = TRUE) + 
-  theme(legend.position = "none") +
-  labs(
-    title = paste("Stories")
-  )
-
-stories2 <- ggplot(stories, aes(year, subjectivity)) +
-  geom_point(aes(color = global_topics)) +
-  geom_smooth(se = TRUE) +
-  theme(legend.position = "bottom") +
-  theme(legend.title = element_blank(), legend.text=element_text(size=5.5)) 
-  
-ggarrange(sounds1, stories1, show1, sounds2, stories2, show2)
-```
-
-This code creates the figure below, where each dot represents a sentence, and color indicates the global topic the sentence belongs to.
-
-![sent](https://imgur.com/RIHuTpc.png)
-
-
 ## Part 4: Results
 
 The primary purpose for the investigation of local topics was to use the leading keywords to summarize the content of a given year, whereby changes might be perceived from year to year. Conversely, the presence of common important keywords throughout time point to their consistent use over a large period of the Young People’s Concerts. 
