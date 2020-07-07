@@ -13,6 +13,7 @@ What follows is an attempt to engage in historical research with dyanmic topic m
 ## Part 1: Building the Primary Source Dataset
 
 A time-based topic analysis requires multiple data representations (topics), at different times. Thus, the term dynamic refers to the change of the topic models over a period of time. In order to construct dynamic topic models, I repeated this process for each year, paying special attention to topical independence and coherency. The term clustered refers to the merging and categorization of all individual topic models into a single dataset. To meet this requirement, I merged the fourteen unique datasets into one. To effectively cluster topics, I ran an additional LDA on the final merged dataset, which culminated in a hierarchical set of global categories and local topics labelled by year. Following the global LDA analysis, I engaged in a close reading of the final LDA output, where I labelled each global category.
+
 ### Mining HTML Data
 
 36 out of 53 transcripts for the Young People's Concerts (YPCs) were available on the Leonard Bernstein Office's online archives. I used the beautiful soup and requests python libraries in order to read in all of the html at each respective url. Once each website is read into python, each transcript was appended to the list 'alltranscripts' for futher processing. 
@@ -327,7 +328,7 @@ The global categories and topics were labelled as follows:
 - Stories: Development, Good vs. Evil, Philosophy, Music and Space
 - Audience: The Show, Young people
 
-### Final Data Preparations
+### A Note on Sentiment
 
 I am interested in the sentiment of the text, so I used textblob to create a sentiscore. The sentiscore includes polarity, a measure of positive/negative valence (-1.0 to 1.0), and subjectivity, a 0 to 1 scale measuring the extent to which words indicate a fact or an opinion. I ran the following function on the merged dataset to ascertain polarity and subjectivity scores for each text element. This allowed me to compare sentiment measures over time. 
 
@@ -409,23 +410,6 @@ This code creates the figure below, where each dot represents a sentence, and co
 
 ![sent](https://imgur.com/RIHuTpc.png)
 
-### Local Abberations and Trends of Note
-
-Polarity and Subjectivity By Year and Category
-- Sounds: dip for both models at 1965
-- Stories: subjectivity peak at 1967, stable polarity
-- The Show: investigate apparent rise and fall for both models
-- Investigate outliers for all models
-
-Global Topic Mentions By Year
-- Prevalence of 'breaking the rules'
-- Stability of orchestration
-- Development, young people, and endings path similarity
-- Philosophy and space similarity
-- Good vs. evil and heritage similarity
-
-Keyword Nodes
-- sentences that use these keywords may merit the examination of a set of local topics
 
 ## Part 4: Results
 
