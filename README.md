@@ -1,7 +1,42 @@
-# Creating and Learning with AI: Week 1
+# Exploring AI Creativity, Longitudinal Research on Student Perspectives, and Advancing the AURA System
 Updated on January 15th, 2025
 
-Test
+Today in **AA297G – Creating and Learning with Artificial Intelligence**, we’re starting with an introduction to two AI tools: **ImageFX** and **Luma Dream Machine**. This session provides students with an opportunity to experiment with generative AI and explore its applications in creative and educational contexts.
+
+---
+
+#### Exploring ImageFX and Luma Dream Machine
+
+Our class begins with hands-on activities using two tools:
+
+- **[ImageFX](https://labs.google/fx/tools/image-fx)**: Students will generate detailed visuals using prompts, observing how AI interprets descriptions of scenes, styles, and moods.  
+- **[Luma Dream Machine](https://lumalabs.ai/dream-machine)**: Students will use start and end frames to create animated sequences, experimenting with how AI transitions between static concepts.
+
+For anyone interested in trying these tools, you can use our **prompt creation activity** [here](https://claude.site/artifacts/68cdb150-7286-4a65-89c8-8ce07e56b9ab).
+
+<img width="717" alt="Screenshot 2025-01-14 at 3 54 34 PM" src="https://github.com/user-attachments/assets/59981ee0-3d7f-4169-9ed3-1e0690b54e3f" />
+
+---
+
+#### Building on Last Semester’s Longitudinal Study
+
+This semester builds on a **longitudinal study** that started last fall, examining how college students use and perceive AI tools. We’re continuing to track changes in attitudes, ethical considerations, and creative practices, with this semester’s students contributing new perspectives to that dataset. Data collection is expected to continue through the **2026–27 academic year**, providing a sustained look at how student interactions with AI evolve over time.
+
+---
+
+#### Advancing the AURA System and Seed Grant Efforts
+
+While updates on the **seed grant** have slowed, this has created opportunities to refine our vision and expand its scope. We are exploring potential applications for AI in training **graduate students in the College of Engineering at Penn State** and **nursing education**, identifying ways to integrate the technology into diverse professional and educational contexts.
+
+These efforts are part of the development of **AURA (Adaptive Understanding Response Agent)**, a system designed to handle a wide range of use cases. We are consulting with **patent lawyers** to explore how AURA could influence broader systems and have a meaningful impact across disciplines. At the same time, we are working to develop a compelling case for external funding to support AURA’s continued growth and implementation. The goal remains to produce an immersive web-based voice-to-voice simulation system focused on preservice teacher education by the end of the year that demonstrates the system’s potential. See an example from our GPT version below.
+
+<img width="520" alt="Screenshot 2025-01-15 at 9 27 15 AM" src="https://github.com/user-attachments/assets/4cc8ccde-7bc4-47e9-9902-0d350c1b777a" />
+
+---
+
+
+
+
 
 
 # Clustered Dynamic Topic Modeling Leonard Bernstein's Young People's Concerts
