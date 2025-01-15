@@ -1,3 +1,9 @@
+# Creating and Learning with AI: Week 1
+Updated on January 15th, 2025
+
+Test
+
+
 # Clustered Dynamic Topic Modeling Leonard Bernstein's Young People's Concerts
 Updated on July 6th, 2020
 ![What Does Music Mean?](https://bernstein.classical.org/wp-content/uploads/2018/02/GettyImags-53027946_master_metaLR.jpg)
