@@ -1,5 +1,4 @@
 # Exploring AI Creativity, Longitudinal Research on Student Perspectives, and Advancing the AURA System
-Updated on January 15th, 2025
 
 Today in **AA297G – Creating and Learning with Artificial Intelligence**, we’re starting with an introduction to two AI tools: **ImageFX** and **Luma Dream Machine**. This session provides students with an opportunity to experiment with generative AI and explore its applications in creative and educational contexts.
 
@@ -32,6 +31,7 @@ These efforts are part of the development of **AURA (Adaptive Understanding Resp
 
 <img width="520" alt="Screenshot 2025-01-15 at 9 27 15 AM" src="https://github.com/user-attachments/assets/4cc8ccde-7bc4-47e9-9902-0d350c1b777a" />
 
+##### Updated on January 15th, 2025
 ---
 
 
