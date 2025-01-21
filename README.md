@@ -1,7 +1,7 @@
 ## Talking to Machines: Then, Now, and Then
 ![jbh6331_Charles Babbage and Ada Lovelace and the Difference Machine (1822)](https://github.com/user-attachments/assets/386318ea-6abb-4cd7-8124-31a62b62256c)
 ##### By [Jacob Holster](https://arts.psu.edu/directory/jacob-holster)
-Updated January 21st, 2025
+##### Updated January 21st, 2025
 ---
 Chatbots have come a long way since the 1960s, when ELIZA mostly echoed user inputs to simulate a therapy session, and PARRY tried to emulate paranoid thought patterns. Although groundbreaking for their time, both relied on scripted, rule-based responses rather than any deep understanding of language. Since then, advances in computing and data processing have propelled chatbots from these simple prototypes to modern systems like Siri, Alexa, and ChatGPT, all capable of interpreting user queries and providing nuanced, context-aware answers. [Click here](https://jayholster.github.io/timeline/) for a more detailed timeline of the history of talking to machines and chatbot development.
 
