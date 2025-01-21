@@ -4,15 +4,15 @@
 ##### By [Jacob Holster](https://arts.psu.edu/directory/jacob-holster)
 ##### Updated January 21st, 2025
 
-Chatbots have come a long way since the 1960s, when ELIZA mostly echoed user inputs to simulate a therapy session, and PARRY tried to emulate paranoid thought patterns. Although groundbreaking for their time, both relied on scripted, rule-based responses rather than any deep understanding of language. Since then, advances in computing and data processing have propelled chatbots from these simple prototypes to modern systems like Siri, Alexa, and ChatGPT, all capable of interpreting user queries and providing nuanced, context-aware answers. [Click here](https://jayholster.github.io/timeline/) for a more detailed timeline of the history of talking to machines and chatbot development.
+Chatbots have come a long way since the 1960s, when ELIZA mostly echoed user inputs to simulate a therapy session, and PARRY tried to emulate paranoid thought patterns for practicing psychotherapists. Although impressive, these early systems relied on scripted, rule-based responses rather than any deep understanding of language. Since then, advances in computing and data processing have propelled chatbots from these prototypes to modern systems like Siri, Alexa, and ChatGPT, all capable of interpreting user queries and providing nuanced, context-aware answers. [Click here](https://jayholster.github.io/timeline/) for a more detailed timeline of the history of talking to machines and chatbot development.
 
 ![eliza](https://github.com/user-attachments/assets/a4953b91-a7d6-4bff-a2d0-2910dc7a5bfe)
 
-AI development is often discussed in terms of **Narrow AI** and **Artificial General Intelligence (AGI)**. Narrow AI (also called “weak AI”) refers to AI systems designed for a single or limited range of tasks—like playing chess, filtering spam, or recommending products. These systems function extremely well within their specific domains but cannot adapt seamlessly to problems outside of those areas. In contrast, **Artificial General Intelligence (AGI)** is the concept of an AI that could perform any intellectual task a human can. AGI would be capable of learning and reasoning about virtually any problem, not just ones it was explicitly trained to handle. While most AI systems in use today are still narrow in scope, many experts believe AGI could be closer than initially expected, fueled by rapid advancements in machine learning and the growing complexity of AI models. Many industry insiders now believe AGI could emerge sooner than expected, or that it has already been achieved. These beliefs are evidenced by unreleased models that are already exceeding PhD-level human performance in previously impossible-to-pass benchmark tests.
+AI development, which is sometimes considered synonymous to Chatbot Development, is often discussed in terms of **Narrow AI** and **Artificial General Intelligence (AGI)**. Narrow AI (also called “weak AI”) refers to AI systems designed for a single or limited range of tasks—like playing chess, filtering spam, or recommending products. These systems function extremely well within their specific domains but cannot adapt seamlessly to problems outside of those areas. In contrast, **Artificial General Intelligence (AGI)** is the concept of an AI that could perform any intellectual task a human can. AGI would be capable of learning and reasoning about virtually any problem, not just ones it was explicitly trained to handle. While most AI systems in use today are still narrow in scope, many experts believe AGI could be closer than initially expected, fueled by rapid advancements in machine learning and the growing complexity of AI models. Recent executive orders and a new 500 billion dollar pledge to fund AI research exacerbate the voracity of these developments. Concurrently, industry insiders now believe AGI could emerge sooner than expected, or that it has already been achieved. These beliefs are evidenced by unreleased models that are already exceeding PhD-level human performance in previously impossible-to-pass benchmark tests.
 
-### OpenAI's Levels Framework
+### The Path to AGI
 
-OpenAI’s “levels” framework outlines a framework for understanding the progression toward AGI. At **Level 1**, chatbots simply respond to prompts with limited reasoning—an evolution of early systems like ELIZA. **Level 2** reasoners, such as OpenAI’s O1 model, allocate additional processing power while actively responding to a query (during "test time") to ensure more thorough and accurate reasoning. Unlike simpler systems that use a fixed amount of computation regardless of task complexity, models with this feature dynamically adjust their resources to deeply analyze and solve intricate, multi-step problems with a single prompt. This process expands on methods like *Let’s Verify Step by Step* that led to early improvements in the GPT series.
+OpenAI’s “levels” framework outlines a framework for understanding a potential progression toward AGI. At **Level 1**, chatbots simply respond to prompts with limited reasoning—an evolution of early systems like ELIZA. **Level 2** reasoners, such as OpenAI’s O1 model, allocate additional processing power while actively responding to a query (during "test time") to ensure more thorough and accurate reasoning. Unlike simpler systems that use a fixed amount of computation regardless of task complexity, models with this feature dynamically adjust their resources to deeply analyze and solve intricate, multi-step problems with a single prompt. This process expands on methods like *Let’s Verify Step by Step* that led to early improvements in the GPT series.
 
 ![stages of agi](https://github.com/user-attachments/assets/bd75b2ad-e4e5-40dd-9e66-019799e6b4e3)
 
@@ -24,7 +24,7 @@ At **Level 5**, AI could autonomously manage entire operations, making high-leve
 
 ### Strategies for Prompting Today’s Foundation Models
 
-Current foundation models like GPT-4 and GPT-4o require effective prompting, sometimes called “prompt engineering,” to maximize their capabilities. Strategies for interacting with these models include:
+Current foundation models like GPT-4 and GPT-4o require effective prompting, sometimes called “prompt engineering,” to maximize their capabilities. These skills will likely transfer through the five levels with waning relevance as models improve. Strategies for prompting with include:
 
 - **Iterative Refinement**: Continuously improve outputs through feedback and revision.  
   *Example*: "Revise this response to make it more concise while keeping the key points."
@@ -46,7 +46,7 @@ Current foundation models like GPT-4 and GPT-4o require effective prompting, som
 
 [Compare these processes across models](https://poe.com/) on Poe for free. Try ChatGPT, Claude, Gemini, if you’re not sure where to start.  
 
-Looking ahead, prompts may be less about giving detailed instructions and more about co-creating solutions with powerful AI systems. Here are some ideas, tried and untried:
+Looking ahead, prompts may be less about giving detailed instructions and more about co-creating solutions with materially and computationally powerful AI systems. Here are some ideas, tried and untried:
 
 - **Gamified Prompting**: AI adapts role-playing games or puzzles in real time to deepen engagement.
   
