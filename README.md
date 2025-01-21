@@ -56,21 +56,17 @@ Looking ahead, prompts may be less about giving detailed instructions and more a
     
 - **AI Scriptwriting**: Brainstorm plots or dialogues with an AI co-author suggesting twists in real time.
   
-- **Educational Companions**: AI tutors tailor lessons and adapt explanations to fit learners' needs.
-  
-- **Enterprise Copilots**: Integrated AI automates tasks like drafting emails or summarizing meetings.
-  
-- **Neural Interfaces**: Future AI may interpret thoughts directly, bypassing typing or speaking.
+- **Educational Companions**: AI tutors make dynamic lessons with visual and voice components that adapt explanations to fit learners' needs.
+    
+- **Neural Interfaces**: Future AI may develop the capacity to interpret thoughts directly, bypassing typing or speaking.
   
 - **Dynamic Narratives**: AI crafts personalized, interactive stories for learning or entertainment.
     
-- **Creative Ecosystems**: AI orchestrates multi-disciplinary projects, from music to VR worlds.
+- **Creative Ecosystems**: AI orchestrates multi-disciplinary projects with material outputs. 
   
-- **Multi-Agent Teams**: Specialized AIs collaborate, combining expertise for complex challenges.
+- **Multi-Agent Teams**: Specialized AIs collaborate for research combining expertise for complex challenges like fusion power and a general cure for cancer.
   
 - **Hyper-Adaptive Simulations**: Simulations adjust in real time based on user input, creating lifelike learning experiences.  
-
-These shifts will make AI less of a tool and more of a partner for exploration and innovation.
 
 ### Risks of Prompting AGI
 
