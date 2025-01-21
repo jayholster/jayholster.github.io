@@ -1,10 +1,9 @@
-
----
+-----
 # Talking to Machines: Then, Now, and Then
 ![20250121_1208_Human-AI Interaction_simple_compose_01jj4xbf78fv59hmdp6aaa1swc](https://github.com/user-attachments/assets/2a8c4885-e80c-488a-a1b4-4a80ebb63fa6)
 ##### By [Jacob Holster](https://arts.psu.edu/directory/jacob-holster)
 ##### Updated January 21st, 2025
----
+
 Chatbots have come a long way since the 1960s, when ELIZA mostly echoed user inputs to simulate a therapy session, and PARRY tried to emulate paranoid thought patterns. Although groundbreaking for their time, both relied on scripted, rule-based responses rather than any deep understanding of language. Since then, advances in computing and data processing have propelled chatbots from these simple prototypes to modern systems like Siri, Alexa, and ChatGPT, all capable of interpreting user queries and providing nuanced, context-aware answers. [Click here](https://jayholster.github.io/timeline/) for a more detailed timeline of the history of talking to machines and chatbot development.
 
 AI development is often discussed in terms of **Narrow AI** and **Artificial General Intelligence (AGI)**. Narrow AI (also called “weak AI”) refers to AI systems designed for a single or limited range of tasks—like playing chess, filtering spam, or recommending products. These systems function extremely well within their specific domains but cannot adapt seamlessly to problems outside of those areas. In contrast, **Artificial General Intelligence (AGI)** is the concept of an AI that could perform any intellectual task a human can. AGI would be capable of learning and reasoning about virtually any problem, not just ones it was explicitly trained to handle. While most AI systems in use today are still narrow in scope, many experts believe AGI could be closer than initially expected, fueled by rapid advancements in machine learning and the growing complexity of AI models. Many industry insiders now believe AGI could emerge sooner than expected, or that it has already been achieved. These beliefs are evidenced by unreleased models that are already exceeding PhD-level human performance in previously impossible-to-pass benchmark tests.
