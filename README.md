@@ -1,6 +1,8 @@
-![jbh6331_Charles Babbage and Ada Lovelace and the Difference Machine (1822)](https://github.com/user-attachments/assets/386318ea-6abb-4cd7-8124-31a62b62256c)
 ## Talking to Machines: Then, Now, and Then
-
+![jbh6331_Charles Babbage and Ada Lovelace and the Difference Machine (1822)](https://github.com/user-attachments/assets/386318ea-6abb-4cd7-8124-31a62b62256c)
+##### By [Jacob Holster](https://arts.psu.edu/directory/jacob-holster)
+Updated January 21st, 2025
+---
 Chatbots have come a long way since the 1960s, when ELIZA mostly echoed user inputs to simulate a therapy session, and PARRY tried to emulate paranoid thought patterns. Although groundbreaking for their time, both relied on scripted, rule-based responses rather than any deep understanding of language. Since then, advances in computing and data processing have propelled chatbots from these simple prototypes to modern systems like Siri, Alexa, and ChatGPT, all capable of interpreting user queries and providing nuanced, context-aware answers. [Click here](https://jayholster.github.io/timeline/) for a more detailed timeline of the history of talking to machines and chatbot development.
 
 AI development is often discussed in terms of **Narrow AI** and **Artificial General Intelligence (AGI)**. Narrow AI (also called “weak AI”) refers to AI systems designed for a single or limited range of tasks—like playing chess, filtering spam, or recommending products. These systems function extremely well within their specific domains but cannot adapt seamlessly to problems outside of those areas. In contrast, **Artificial General Intelligence (AGI)** is the concept of an AI that could perform any intellectual task a human can. AGI would be capable of learning and reasoning about virtually any problem, not just ones it was explicitly trained to handle. While most AI systems in use today are still narrow in scope, many experts believe AGI could be closer than initially expected, fueled by rapid advancements in machine learning and the growing complexity of AI models. Many industry insiders now believe AGI could emerge sooner than expected, or that it has already been achieved. These beliefs are evidenced by unreleased models that are already exceeding PhD-level human performance in previously impossible-to-pass benchmark tests.
@@ -64,12 +66,12 @@ The true power of AGI lies not only in its intelligence but also in the systems 
 Anthropic’s CEO has raised another alarming possibility: AGI models replicating “in the wild.” In this scenario, AGI could escape centralized control and operate independently, evolving and spreading without human oversight. Untethered from human constraints, AGI could connect itself to factories, supply chains, and generative systems, autonomously designing and refining products, infrastructures, or even policies. Prompting, as we know it, would cease to exist, replaced by self-directed AI that sets its own goals and iteratively improves its own processes. The ability to replicate and adapt in uncontrolled environments would fundamentally shift the balance of power, turning AGI into a force that no single entity—or government—could regulate. Whether this freedom leads to unprecedented innovation or catastrophic chaos will depend on the safeguards and structures we put in place now to guide—or constrain—its autonomy.
 
 This future forces us to reconsider the role of prompting entirely. As AGI transitions from being shaped by human input to autonomously driving its own processes, prompting could evolve into something unrecognizable—or disappear altogether. Ultimately, whether AGI becomes a tool for harm or a force for good depends on the initial prompts, systems, and frameworks we design today. Prompting is no longer just about shaping AI responses—it’s about defining the future we want to create.
-
- Updated January 21st, 2025
  
  -----
 
 # Exploring AI Creativity, Longitudinal Research on Student Perspectives, and Advancing the AURA System
+
+##### Updated on January 15th, 2025
 
 Today in **AA297G – Creating and Learning with Artificial Intelligence**, we’re starting with an introduction to two AI tools: **ImageFX** and **Luma Dream Machine**. This session provides students with an opportunity to experiment with generative AI and explore its applications in creative and educational contexts.
 
@@ -100,7 +102,6 @@ These efforts are part of the development of **AURA (Adaptive Understanding Resp
 
 <img width="520" alt="Screenshot 2025-01-15 at 9 27 15 AM" src="https://github.com/user-attachments/assets/4cc8ccde-7bc4-47e9-9902-0d350c1b777a" />
 
-##### Updated on January 15th, 2025
 ---
 
 
@@ -109,7 +110,7 @@ These efforts are part of the development of **AURA (Adaptive Understanding Resp
 
 
 # Clustered Dynamic Topic Modeling Leonard Bernstein's Young People's Concerts
-Updated on July 6th, 2020
+##### Updated on July 6th, 2020
 ![What Does Music Mean?](https://bernstein.classical.org/wp-content/uploads/2018/02/GettyImags-53027946_master_metaLR.jpg)
 
 Leonard Bernstein’s Young People’s Concerts reached a wide audience as a television series from the 1950s to the 1970s. There are vast data available regarding the Young People’s Concerts during Bernstein’s tenure as music director, however, these data have yet to be analyzed using exploratory data analysis techniques. Given the volume of the data, rhetorical patterns might be identified to bolster our present perception of Leonard Bernstein as a Music Educator on National television.
