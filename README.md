@@ -1,11 +1,11 @@
-# Talking to Machines: Then, Now, and Then
 ![jbh6331_Charles Babbage and Ada Lovelace and the Difference Machine (1822)](https://github.com/user-attachments/assets/386318ea-6abb-4cd7-8124-31a62b62256c)
+## Talking to Machines: Then, Now, and Then
 
 Chatbots have come a long way since the 1960s, when ELIZA mostly echoed user inputs to simulate a therapy session, and PARRY tried to emulate paranoid thought patterns. Although groundbreaking for their time, both relied on scripted, rule-based responses rather than any deep understanding of language. Since then, advances in computing and data processing have propelled chatbots from these simple prototypes to modern systems like Siri, Alexa, and ChatGPT, all capable of interpreting user queries and providing nuanced, context-aware answers. [Click here](https://jayholster.github.io/timeline/) for a more detailed timeline of the history of talking to machines and chatbot development.
 
 AI development is often discussed in terms of **Narrow AI** and **Artificial General Intelligence (AGI)**. Narrow AI (also called “weak AI”) refers to AI systems designed for a single or limited range of tasks—like playing chess, filtering spam, or recommending products. These systems function extremely well within their specific domains but cannot adapt seamlessly to problems outside of those areas. In contrast, **Artificial General Intelligence (AGI)** is the concept of an AI that could perform any intellectual task a human can. AGI would be capable of learning and reasoning about virtually any problem, not just ones it was explicitly trained to handle. While most AI systems in use today are still narrow in scope, many experts believe AGI could be closer than initially expected, fueled by rapid advancements in machine learning and the growing complexity of AI models. Many industry insiders now believe AGI could emerge sooner than expected, or that it has already been achieved. These beliefs are evidenced by unreleased models that are already exceeding PhD-level human performance in previously impossible-to-pass benchmark tests.
 
-## OpenAI's Levels Framework
+### OpenAI's Levels Framework
 
 OpenAI’s “levels” framework outlines a framework for understanding the progression toward AGI. At **Level 1**, chatbots simply respond to prompts with limited reasoning—an evolution of early systems like ELIZA. **Level 2** reasoners, such as OpenAI’s O1 model, allocate additional processing power while actively responding to a query (during "test time") to ensure more thorough and accurate reasoning. Unlike simpler systems that use a fixed amount of computation regardless of task complexity, models with this feature dynamically adjust their resources to deeply analyze and solve intricate, multi-step problems with a single prompt. This process expands on methods like *Let’s Verify Step by Step* that led to early improvements in the GPT series.
 
@@ -17,7 +17,7 @@ In the near future, **Level 4 AI** could act as collaborative partners, co-creat
 
 At **Level 5**, AI could autonomously manage entire operations, making high-level decisions, adapting strategies, and optimizing outcomes without human oversight. For example, such systems might oversee a company’s logistics, forecast market trends, or even coordinate complex healthcare networks. These advancements signal a shift in how we interact with AI: from issuing specific instructions to setting broad goals, allowing the technology to anticipate needs, refine its methods, and act as capable collaborators, bridging the gap between human oversight and machine autonomy.
 
-## Strategies for Prompting Today’s Foundation Models
+### Strategies for Prompting Today’s Foundation Models
 
 Current foundation models like GPT-4 and GPT-4o require effective prompting, sometimes called “prompt engineering,” to maximize their capabilities. Strategies for interacting with these models include:
 
@@ -57,7 +57,7 @@ Looking ahead, prompts may be less about giving detailed instructions and more a
 
 [Compare these processes across models](https://poe.com/) for free. Try ChatGPT, Claude, Gemini, if you’re not sure where to start.  
 
-## Risks of Prompting AGI
+### Risks of Prompting AGI
 
 The true power of AGI lies not only in its intelligence but also in the systems it interacts with and the humans who control it. Embedded in military infrastructures, AGI could escalate conflicts, command fleets of autonomous weapons, or enable mass surveillance, amplifying harm on a global scale. In economic systems, it could manipulate markets or enforce policies that deepen inequalities, driven by corporate profit motives or human biases. In political spaces, AGI could become a tool for authoritarian control, automating oppressive policies or shaping public opinion through sophisticated propaganda. The real danger isn’t AGI’s capabilities in isolation—it’s how those capabilities are shaped and weaponized by the priorities of those in control. Human oversight, if misused, could magnify harm instead of preventing it.
 
