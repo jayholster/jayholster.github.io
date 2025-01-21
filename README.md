@@ -1,5 +1,5 @@
 ### Talking to Machines: Then, Now, and Then
-![20250121_1221_Communication Through Time_simple_compose_01jj4y43krecqakd7gz3sf4r6v](https://github.com/user-attachments/assets/073e8609-2f5d-4b7e-8a31-0df4eff5fb24)
+![20250121_1208_Human-AI Interaction_simple_compose_01jj4xbf78fv59hmdp6aaa1swc](https://github.com/user-attachments/assets/2a8c4885-e80c-488a-a1b4-4a80ebb63fa6)
 ##### By [Jacob Holster](https://arts.psu.edu/directory/jacob-holster)
 ##### Updated January 21st, 2025
 ---
