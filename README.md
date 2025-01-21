@@ -1,5 +1,5 @@
-## Talking to Machines: Then, Now, and Then
 ![jbh6331_Charles Babbage and Ada Lovelace and the Difference Machine (1822)](https://github.com/user-attachments/assets/386318ea-6abb-4cd7-8124-31a62b62256c)
+## Talking to Machines: Then, Now, and Then
 ##### By [Jacob Holster](https://arts.psu.edu/directory/jacob-holster)
 ##### Updated January 21st, 2025
 ---
