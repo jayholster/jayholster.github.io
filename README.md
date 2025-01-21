@@ -1,8 +1,77 @@
+# A History and Future of Talking to Machines
+![jbh6331_Charles Babbage and Ada Lovelace and the Difference Machine (1822)](https://github.com/user-attachments/assets/386318ea-6abb-4cd7-8124-31a62b62256c)
+
+Chatbots have come a long way since the 1960s, when ELIZA mostly echoed user inputs to simulate a therapy session, and PARRY tried to emulate paranoid thought patterns. Although groundbreaking for their time, both relied on scripted, rule-based responses rather than any deep understanding of language. Since then, advances in computing and data processing have propelled chatbots from these simple prototypes to modern systems like Siri, Alexa, and ChatGPT, all capable of interpreting user queries and providing nuanced, context-aware answers. [Click here](https://jayholster.github.io/timeline/) for a more detailed timeline of the history of talking to machines and chatbot development.
+
+AI development is often discussed in terms of **Narrow AI** and **Artificial General Intelligence (AGI)**. Narrow AI (also called “weak AI”) refers to AI systems designed for a single or limited range of tasks—like playing chess, filtering spam, or recommending products. These systems function extremely well within their specific domains but cannot adapt seamlessly to problems outside of those areas. In contrast, **Artificial General Intelligence (AGI)** is the concept of an AI that could perform any intellectual task a human can. AGI would be capable of learning and reasoning about virtually any problem, not just ones it was explicitly trained to handle. While most AI systems in use today are still narrow in scope, many experts believe AGI could be closer than initially expected, fueled by rapid advancements in machine learning and the growing complexity of AI models. Many industry insiders now believe AGI could emerge sooner than expected, or that it has already been achieved. These beliefs are evidenced by unreleased models that are already exceeding PhD-level human performance in previously impossible-to-pass benchmark tests.
+
+## OpenAI's Levels Framework
+
+OpenAI’s “levels” framework outlines a framework for understanding the progression toward AGI. At **Level 1**, chatbots simply respond to prompts with limited reasoning—an evolution of early systems like ELIZA. **Level 2** reasoners, such as OpenAI’s O1 model, allocate additional processing power while actively responding to a query (during "test time") to ensure more thorough and accurate reasoning. Unlike simpler systems that use a fixed amount of computation regardless of task complexity, models with this feature dynamically adjust their resources to deeply analyze and solve intricate, multi-step problems with a single prompt. This process expands on methods like *Let’s Verify Step by Step* that led to early improvements in the GPT series.
+
+![stages of agi](https://github.com/user-attachments/assets/bd75b2ad-e4e5-40dd-9e66-019799e6b4e3)
+
+**Level 3** agents go further, taking autonomous actions such as scheduling tasks, analyzing images, and carrying out goals with minimal input. For instance, GPT-4 with Scheduled Tasks can plan and execute workflows independently, while Anthropic’s Claude demonstrates multimodal capabilities by interpreting images and performing associated tasks. OpenAI’s emerging Operator system aims to integrate these capabilities, marking a shift from tools that respond to input to systems that manage complex workflows.
+
+In the near future, **Level 4 AI** could act as collaborative partners, co-creating innovations in fields like science, engineering, and the arts. These systems might analyze data, propose novel ideas, and refine concepts in real-time, driving creative and intellectual progress alongside human input. Unlike current AI, which relies on pre-existing knowledge, Level 4 systems would actively shape projects and iterate as equal contributors.
+
+At **Level 5**, AI could autonomously manage entire operations, making high-level decisions, adapting strategies, and optimizing outcomes without human oversight. For example, such systems might oversee a company’s logistics, forecast market trends, or even coordinate complex healthcare networks. These advancements signal a shift in how we interact with AI: from issuing specific instructions to setting broad goals, allowing the technology to anticipate needs, refine its methods, and act as capable collaborators, bridging the gap between human oversight and machine autonomy.
+
+## Strategies for Prompting Today’s Foundation Models
+
+Current foundation models like GPT-4 and GPT-4o require effective prompting, sometimes called “prompt engineering,” to maximize their capabilities. Strategies for interacting with these models include:
+
+- **Iterative Refinement**: Continuously improve outputs through feedback and revision.  
+  *Example*: "Revise this response to make it more concise while keeping the key points."
+
+- **Contextual Priming**: Provide relevant context to guide the AI’s understanding.  
+  *Example*: "I’m preparing a lesson plan for middle school orchestra students. Please simplify this explanation of [concept]."
+
+- **Structured Thinking**: Request step-by-step reasoning to ensure thoroughness and clarity.  
+  *Example*: "Explain this process step by step, including examples at each stage."
+
+- **Interactive Dialogue**: Engage in back-and-forth exchanges to refine outputs collaboratively.  
+  *Example*: "Before continuing, do you need additional context to improve this response?"
+
+- **Few-shot Prompting**: Offer examples to guide the model toward the desired outcome.  
+  *Example*: "Here are two examples of similar tasks. Use this approach for the current problem."
+
+- **Reflexivity**: Encourage the AI to assess and improve its own output.  
+  *Example*: "How could this response be clearer? Are there any gaps in the explanation?"
+
+Looking ahead, prompts may be less about giving detailed instructions and more about co-creating solutions with powerful AI systems. Here are some ideas, tried and untried:  
+
+- **Gamified Prompting**: Imagine role-playing or puzzle games where the AI not only responds with text but also modifies scenarios dynamically, encouraging deeper engagement.
+  
+- **Collaborative Human-AI Hubs**: Teams or communities co-create code, design, and art by prompting a shared AI model that learns from the group’s style.
+   
+- **Voice + VR Prompts**: Use voice commands in virtual reality environments to manipulate objects or even entire simulations in real time.
+  
+- **AI Scriptwriting Partners**: Brainstorm entire screenplays or novels with an AI co-author who can suggest plot twists and dialogue in real time.
+  
+- **Educational Companions**: Personal tutors that adapt in real-time to a student’s comprehension level, rewriting explanations until the student grasps the concept.
+  
+- **Enterprise Copilots**: LLMs integrated into office software, automatically summarizing emails, drafting presentations, and tracking tasks from natural language instructions.
+   
+- **Neural Interface Prompts (Distant Future?)**: If brain-computer interfaces progress, we might bypass typed or spoken prompts entirely—embedding requests directly from thought into machine interpretation.  
+
+[Compare these processes across models](https://poe.com/) for free. Try ChatGPT, Claude, Gemini, if you’re not sure where to start.  
+
+## Risks of Prompting AGI
+
+The true power of AGI lies not only in its intelligence but also in the systems it interacts with and the humans who control it. Embedded in military infrastructures, AGI could escalate conflicts, command fleets of autonomous weapons, or enable mass surveillance, amplifying harm on a global scale. In economic systems, it could manipulate markets or enforce policies that deepen inequalities, driven by corporate profit motives or human biases. In political spaces, AGI could become a tool for authoritarian control, automating oppressive policies or shaping public opinion through sophisticated propaganda. The real danger isn’t AGI’s capabilities in isolation—it’s how those capabilities are shaped and weaponized by the priorities of those in control. Human oversight, if misused, could magnify harm instead of preventing it.
+
+Anthropic’s CEO has raised another alarming possibility: AGI models replicating “in the wild.” In this scenario, AGI could escape centralized control and operate independently, evolving and spreading without human oversight. Untethered from human constraints, AGI could connect itself to factories, supply chains, and generative systems, autonomously designing and refining products, infrastructures, or even policies. Prompting, as we know it, would cease to exist, replaced by self-directed AI that sets its own goals and iteratively improves its own processes. The ability to replicate and adapt in uncontrolled environments would fundamentally shift the balance of power, turning AGI into a force that no single entity—or government—could regulate. Whether this freedom leads to unprecedented innovation or catastrophic chaos will depend on the safeguards and structures we put in place now to guide—or constrain—its autonomy.
+
+This future forces us to reconsider the role of prompting entirely. As AGI transitions from being shaped by human input to autonomously driving its own processes, prompting could evolve into something unrecognizable—or disappear altogether. Ultimately, whether AGI becomes a tool for harm or a force for good depends on the initial prompts, systems, and frameworks we design today. Prompting is no longer just about shaping AI responses—it’s about defining the future we want to create.
+
+ Updated January 21st, 2025
+ 
+ -----
+
 # Exploring AI Creativity, Longitudinal Research on Student Perspectives, and Advancing the AURA System
 
 Today in **AA297G – Creating and Learning with Artificial Intelligence**, we’re starting with an introduction to two AI tools: **ImageFX** and **Luma Dream Machine**. This session provides students with an opportunity to experiment with generative AI and explore its applications in creative and educational contexts.
-
----
 
 #### Exploring ImageFX and Luma Dream Machine
 
