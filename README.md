@@ -1,5 +1,4 @@
 -----
-#
 # Resisting Inequity with Microrefusals
 ![jbh6331_1_--ar_43_--v_6 1_b9c36209-587f-44c8-9c3c-71572f9da698](https://github.com/user-attachments/assets/f9618078-b0ae-47ed-8632-11b853bdc3de)
 ##### By [Jacob Holster](https://arts.psu.edu/directory/jacob-holster)
@@ -51,7 +50,7 @@ This is a call to action for all educators: to persist in the face of challenges
 
 - Strom, K. J., & Lupinacci, J. (2019). Putting posthuman theories to work in educational leadership programmes. In Taylor, C.A., & Bayley, A. (Eds.), *Posthumanism and Higher Education*. Palgrave Macmillan. [https://doi.org/10.1007/978-3-030-14672-6_6](https://doi.org/10.1007/978-3-030-14672-6_6)
 
------
+---
 
 # Talking to Machines: Then, Now, and Then
 ![20250121_1208_Human-AI Interaction_simple_compose_01jj4xbf78fv59hmdp6aaa1swc](https://github.com/user-attachments/assets/2a8c4885-e80c-488a-a1b4-4a80ebb63fa6)
