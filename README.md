@@ -1,3 +1,4 @@
+-----
 # Resisting Inequity with Microrefusals
 ![jbh6331_1_--ar_43_--v_6 1_b9c36209-587f-44c8-9c3c-71572f9da698](https://github.com/user-attachments/assets/f9618078-b0ae-47ed-8632-11b853bdc3de)
 
