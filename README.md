@@ -1,5 +1,7 @@
 -----
 # Resisting Inequity with Microrefusals
+![jbh6331_1_--ar_43_--v_6 1_b9c36209-587f-44c8-9c3c-71572f9da698](https://github.com/user-attachments/assets/f9618078-b0ae-47ed-8632-11b853bdc3de)
+
 Language constructs human interactivity. Words and non-verbal emblems are the medium through which we express ideas, communicate values, and share experiences. At the same time, our linguistic patterns are directly informed by a complex network of societal norms, historical biases, and power relations. Although a phrase may provide comfort to someone experiencing difficulty, they allow us to define borders, craft policy, and build civilizations through status function declarations (e.g., “‘Let this be a boundary!’, ‘Let the oldest son be the king!’, ‘Let there be a corporation!’”) which congeal into institutional facts, or the rules of interaction among agents within the fabric of society (Searle, 2010, p. 110). As a consequence, people who use some languages and dialects are privileged while others are marginalized, along with the cultures each creates. The resulting hierarchy illustrates the consequences of linguistic power, or the ability to define, include, exclude, and control both language and its speakers.
 
 ### Linguistic Micropolitics
